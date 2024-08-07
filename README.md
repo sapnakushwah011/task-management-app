@@ -39,6 +39,7 @@ This task management application allows users to manage their tasks efficiently 
 - **ReactJS:** A JavaScript library for building user interfaces.
 - **Redux:** A state management library.
 - **Redux Persist:** A library to persist Redux state across sessions.
+- **Sweetalert2:** A library to show alert messages.
 
 ## Additional Information
 
