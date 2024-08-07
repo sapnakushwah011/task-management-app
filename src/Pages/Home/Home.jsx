@@ -22,6 +22,7 @@ import {
 import { useDispatch, useSelector } from "react-redux";
 import { deleteTask, toggleTask } from "../../redux/actions";
 import dayjs from "dayjs";
+import Swal from 'sweetalert2';
 
 const Home = () => {
   const [open, setOpen] = useState(false);
@@ -52,7 +53,17 @@ const Home = () => {
 
   // Dispatches an action to delete a task
   const handleDelete = (id) => {
-    dispatch(deleteTask(id));
+    Swal.fire({
+      title: 'Are you sure?',
+      showCancelButton: true,
+      confirmButtonColor: '#d33',
+      cancelButtonColor: 'grey',
+      confirmButtonText: 'Delete'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        dispatch(deleteTask(id));
+      }
+    });
   };
 
 
