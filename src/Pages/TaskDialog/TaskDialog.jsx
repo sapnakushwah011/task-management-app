@@ -14,7 +14,7 @@ const TaskDialog = ({ open, handleClose, existingTask }) => {
   const [task, setTask] = useState({ title: '', dueDate: '', completed: false });
   const dispatch = useDispatch();
 
-  
+  // Update state when existingTask prop changes
   useEffect(() => {                
     if (existingTask) {
       setTask(existingTask);
