@@ -15,6 +15,12 @@ This task management application allows users to manage their tasks efficiently 
 - **Filter by Completion Status:** Users can view tasks based on their completion status—completed, incomplete, or all.
 - **Sort by Due Date:** Tasks can be sorted in ascending or descending order based on their due date.
 
+### Task Counts
+- **Total Projects Count:** Displays the total number of projects.
+- **Completed Tasks Count:** Displays the number of tasks marked as completed.
+- **Incomplete Tasks Count:** Displays the number of tasks marked as incomplete.
+- **Overdue Tasks Count:** Displays the number of tasks past their due date.
+
 ### User Interface
 - The application features a clean, modern design with intuitive navigation and interactive elements.
 
