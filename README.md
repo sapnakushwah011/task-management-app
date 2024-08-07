@@ -39,6 +39,7 @@ This task management application allows users to manage their tasks efficiently 
 - Add tasks using the form in the TaskDialog component.
 - Edit or delete tasks from the task list.
 - Use filters and sorting options to manage task visibility and organization.
+- View the dashboard to see the total count of projects, completed tasks, incomplete tasks, and overdue tasks.
 
 ## Dependencies
 
