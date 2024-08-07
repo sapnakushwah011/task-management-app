@@ -1,0 +1,35 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 20px; 
+  cursor: pointer;
+  gap: 20px;
+}
+
+/* designing card component */
+.card {
+  border-radius: 10px;
+  padding: 12px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  height: 12vh;
+  
+}
+
+.card .title {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center ;
+  gap: 10px; 
+  margin-bottom: 10px;
+  color: white;
+}
+
+.card .desc {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 50px;
+  color: white;
+}

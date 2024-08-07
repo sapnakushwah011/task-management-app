@@ -1,0 +1,72 @@
+.home{
+    padding: 30px;
+    padding-top: 60px;
+    background-color: lightgrey;
+}
+
+/* START : styling the task list container */ 
+
+.home-container {
+    min-height: 350px;
+    width: 90%;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-container-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.home-container-top select { 
+    background-color: white;
+    border: 1px solid rgb(89, 112, 156); 
+    border-radius: 5px; 
+    padding: 10px 20px;
+    font-size: 14px; 
+    color: rgb(56, 56, 104);
+    cursor: pointer;
+    outline: none;
+    width: 200px; 
+    box-sizing: border-box;
+}
+
+.add-task-btn {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    border: none;
+    border-radius: 50%;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.home-container-display-list {
+    margin-top: 10px; 
+}
+
+/* END */ 
+
+/* styling status of tasks */ 
+
+.cell-completed {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .cell-incomplete {
+    background-color: #d63031;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
